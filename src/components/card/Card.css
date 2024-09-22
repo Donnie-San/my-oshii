@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+text, .card {
+  font-family: "Roboto";
+  color: white;
+}
+
+.card-container {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  background-color: #2e2e2e;
+  padding: 15px;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  margin: 0px 5px;
+}
+.card video {
+  width: 100%;
+  border-radius: 10px;
+}
+.card .title {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.card .subtitle {
+  height: 55px;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  overflow-y: hidden;
+}
+.card .uploadDate {
+  margin-top: auto;
+  font-size: 12px;
+  font-weight: 500;
+}
+.card a button {
+  margin-top: 5px;
+  margin-left: auto;
+  border: none;
+  border-radius: 10px;
+  padding: 3px 9px;
+  font-weight: 500;
+  background-color: rgb(77, 119, 255);
+  cursor: pointer;
+  transition: all 1s ease 0s;
+}
+.card button:hover {
+  background-color: rgb(40, 90, 255);
+}/*# sourceMappingURL=Card.css.map */

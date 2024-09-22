@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$primaryColor: #2e2e2e;
+$secondaryColor: rgb(114, 114, 114);
+$accentColor: rgb(77, 119, 255);
+$textcolor: white;
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+
+text{
+    font-family: "Roboto";
+    color: $textcolor;
+}
+
+.card-container{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+}

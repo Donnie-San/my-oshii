@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: content-box;
+}
+
+text {
+  font-family: "Roboto";
+  color: white;
+}
+
+.card-container {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=App.css.map */
